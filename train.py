@@ -6,12 +6,14 @@ import torch.optim as optim
 import json
 import pandas as pd
 import csv
+from torch.utils.tensorboard import SummaryWriter
+writer = SummaryWriter('tfboard/')
 
 # HyperParameter
 batch_size = 32
-learning_rate = 5e-5
+learning_rate = 1e-4
 log_iter = 10
-epochs = 5
+epochs = 30
 
 
 # Load Data
@@ -38,14 +40,9 @@ for rn in REWARD_NAME:
     human_eval.pop(rn+'-std')
 self_play_log_path = 'selfplay'
 self_play_data = {}
-sample_data = None
 for model_name in human_eval['model_name'][:]:
-    try:
-        single_data = [json.loads(l) for l in open(self_play_log_path+'/'+model_name+'.jsonl')][0]
-        single_data = [" ".join([" ".join(t) for t in l]) for l in single_data]
-        sample_data = single_data
-    except:
-        single_data = sample_data
+    single_data = [json.loads(l) for l in open(self_play_log_path+'/'+model_name+'.jsonl')][0]
+    single_data = [" ".join([" ".join(t) for t in l]) for l in single_data]
     self_play_data[model_name] = single_data
 
 # Load Model
@@ -126,8 +123,12 @@ def train(model, dataloader, optimizer):
             optimizer.step()
             if iter%log_iter == 0:
                 print(f"[{iter}/{total_iter}] loss: {loss.item()}")
+                writer.add_scalar("Training Loss", loss.item(), iter)
             # break
         result = eval(model)
+        for rn in REWARD_NAME:
+            writer.add_scalar(f"Pearson/{rn}", result[0][rn], iter)
+            writer.add_scalar(f"Spearman/{rn}", result[1][rn], iter)
         avg_score = sum(list(result[1].values()))
         if avg_score > best_score:
             best_score = avg_score
@@ -135,14 +136,22 @@ def train(model, dataloader, optimizer):
             print("New Best: ")
             for rn in REWARD_NAME:
                 print(f'{rn:>15} {best_result[0][rn]:.4f}  {best_result[1][rn]:.4f}')
+                writer.add_scalar(f"Best Pearson/{rn}", best_result[0][rn], iter)
+                writer.add_scalar(f"Best Spearman/{rn}", best_result[1][rn], iter)
             # print(f"best_result: {best_result}")
         print(f"Evaluation avg_score: {avg_score: .4f}, best_score: {best_score: .4f}")
-    return best_result
+    return best_result, result
 
-best_result = train(model, train_loader, optimizer)
+best_result, last_result = train(model, train_loader, optimizer)
 with open('best_result.csv', mode='w') as employee_file:
     employee_writer = csv.writer(employee_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
     employee_writer.writerow(["Metric"]+REWARD_NAME)
     employee_writer.writerow(["Pearson"]+ [best_result[0][rn] for rn in REWARD_NAME])
     employee_writer.writerow(["Spearman"]+ [best_result[1][rn] for rn in REWARD_NAME])
+with open('last_result.csv', mode='w') as employee_file:
+    employee_writer = csv.writer(employee_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+
+    employee_writer.writerow(["Metric"]+REWARD_NAME)
+    employee_writer.writerow(["Pearson"]+ [last_result[0][rn] for rn in REWARD_NAME])
+    employee_writer.writerow(["Spearman"]+ [last_result[1][rn] for rn in REWARD_NAME])

@@ -6,6 +6,7 @@ import torch.optim as optim
 import json
 import pandas as pd
 import csv
+import numpy as np
 from torch.utils.tensorboard import SummaryWriter
 writer = SummaryWriter('tfboard/')
 
@@ -13,7 +14,9 @@ writer = SummaryWriter('tfboard/')
 batch_size = 32
 learning_rate = 1e-4
 log_iter = 10
-epochs = 30
+epochs = 20
+torch.manual_seed(0)
+np.random.seed(0)
 
 
 # Load Data
@@ -95,6 +98,8 @@ def train(model, dataloader, optimizer):
     lossfun = nn.MSELoss()
     iter = 0
     total_iter = len(dataloader)*epochs
+    scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, total_iter)
+    scaler = torch.cuda.amp.GradScaler()
     best_score = -100
     best_result = None
 
@@ -117,10 +122,13 @@ def train(model, dataloader, optimizer):
             attention_mask = pt_batch['attention_mask'].cuda()
             
             optimizer.zero_grad()
-            output = model(input_ids=input_ids,attention_mask=attention_mask)['logits']
-            loss = lossfun(output, reward)
-            loss.backward()
-            optimizer.step()
+            with torch.cuda.amp.autocast():
+                output = model(input_ids=input_ids,attention_mask=attention_mask)['logits']
+                loss = lossfun(output, reward)
+            scaler.scale(loss).backward()
+            scaler.step(optimizer)
+            scaler.update()
+            scheduler.step()
             if iter%log_iter == 0:
                 print(f"[{iter}/{total_iter}] loss: {loss.item()}")
                 writer.add_scalar("Training Loss", loss.item(), iter)
@@ -142,13 +150,8 @@ def train(model, dataloader, optimizer):
         print(f"Evaluation avg_score: {avg_score: .4f}, best_score: {best_score: .4f}")
     return best_result, result
 
-best_result, last_result = train(model, train_loader, optimizer)
-with open('best_result.csv', mode='w') as employee_file:
-    employee_writer = csv.writer(employee_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+_, last_result = train(model, train_loader, optimizer)
 
-    employee_writer.writerow(["Metric"]+REWARD_NAME)
-    employee_writer.writerow(["Pearson"]+ [best_result[0][rn] for rn in REWARD_NAME])
-    employee_writer.writerow(["Spearman"]+ [best_result[1][rn] for rn in REWARD_NAME])
 with open('last_result.csv', mode='w') as employee_file:
     employee_writer = csv.writer(employee_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 

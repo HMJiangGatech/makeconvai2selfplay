@@ -87,7 +87,7 @@ def eval(model, target_agent):
     input_ids = pt_batch['input_ids'].cuda()
     attention_mask = pt_batch['attention_mask'].cuda()
     output = model(input_ids=input_ids,attention_mask=attention_mask)['logits']
-    result = output.sum(0)
+    result = output.sum(0)/100
     
     return result
 
@@ -142,4 +142,4 @@ with open('last_result_hard.csv', mode='w') as employee_file:
     employee_writer.writerow(["Pearson"]+ [all_pearson_r[rn] for rn in REWARD_NAME])
     employee_writer.writerow(["Spearman"]+ [all_spearman_r[rn] for rn in REWARD_NAME])
 
-human_eval.to_csv('self-play-est.csv', index=False)
+human_eval.to_csv('self-play-hard-est.csv', index=False)

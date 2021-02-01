@@ -75,20 +75,21 @@ def eval(model):
         input_ids = pt_batch['input_ids'].cuda()
         attention_mask = pt_batch['attention_mask'].cuda()
         output = model(input_ids=input_ids,attention_mask=attention_mask)['logits']
-        ests = output.sum(0)
+        ests = output.sum(0)/100
         for rn, est in zip(REWARD_NAME, ests):
             eval_df.loc[eval_df['model_name']==model_name,rn+"_sp"] = est.item()
 
     for rn in REWARD_NAME:
         select_df1 = eval_df[rn]
         select_df2 = eval_df[rn+"_sp"]
+        print(select_df1,select_df2)
         pearson_r = select_df1.corr(select_df2)
         spearman_r = select_df1.corr(select_df2,method='spearman')
         all_pearson_r[rn] = pearson_r
         all_spearman_r[rn] = spearman_r
         print(f"{rn}: {pearson_r:.4f} {spearman_r:.4f}")
     
-    return all_pearson_r, all_spearman_r
+    return all_pearson_r, all_spearman_r, eval_df
 
 # eval(model)
 # exit()
@@ -158,3 +159,5 @@ with open('last_result.csv', mode='w') as employee_file:
     employee_writer.writerow(["Metric"]+REWARD_NAME)
     employee_writer.writerow(["Pearson"]+ [last_result[0][rn] for rn in REWARD_NAME])
     employee_writer.writerow(["Spearman"]+ [last_result[1][rn] for rn in REWARD_NAME])
+
+last_result[2].to_csv('self-play-est.csv', index=False)

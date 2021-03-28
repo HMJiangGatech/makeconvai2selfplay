@@ -1,0 +1,612 @@
+Hello, how are you today?
+I am doing well, thank you. What do you do for fun?
+I like to mountain bike, but I hate the color pink.
+My dad used to drive around here in florida. He was a construction worker.
+I work at a coffee shop.
+I write novels for a living.
+No I do not. Do you?
+My kids name is oreo.
+I would love to be a dog.
+Thank you. What is your favorite color?
+I like red. Reminds me of summer time.
+Not really. I prefer coffee.
+Hi how are you today?
+What kind of music do you play?
+I was born in the early 2000s
+What is your favorite color?
+How old are your parents?
+I like to dance a lot
+How old are you now?
+I am in canada. Where do you travel?
+That sounds like a good place to live.
+It is, but I love it so much.
+What is your favorite food?
+I have never tried breakfast.
+Hi how are you today?
+I am good thanks for asking
+I work at the hospital
+What do you do for a living
+What city are you from?
+What are some of your hobbies
+How are you doing today?
+What do you do for a living?
+I am a professional wrestler
+What city are you from?
+Wow that sounds like a lot of fun
+Yes I've two dogs
+I am great, how are you?
+I'm doing well, just listening to some music.
+I like to wear jeans and shirts.
+What do you do for work?
+I'm a blonde girl with short hair.
+How long have you been doing that?
+Happy birthday! How was it?
+How long have you been married?
+What do you do for a living?
+What city are you from?
+I am sorry to hear that.
+Good luck with your marriage.
+Hi how are you today?
+What do you do for a living?
+No pets. I spend a lot of time on cars.
+I work at home. What about you?
+What is your favorite thing to do?
+I do not have any kids.
+I am well, how are you?
+What do you do for a lawyer?
+I own a studio in california
+I live in los angeles
+Yes I love it here
+I'm a full time student
+I am good thanks for asking
+What city are you from?
+What do you do for a living?
+I live in a rural area
+I like to watch hockey
+I do not know what that is
+Hi how are you today?
+What do you do for a living?
+What city are you from?
+How long have you been there?
+What is your favorite food?
+Do you like to run?
+Hello, how are you today?
+Do you have any hobbies?
+I love to read and study
+I walk dogs for a living.
+What is your favorite color?
+I like red, reminds me of summer time.
+I'm doing well, how about yourself?
+No, but I plan to go to business school next year.
+What kind of soup do you like?
+Did you grow up in ny?
+How old are you now?
+Yes I do. My parents are very wealthy.
+Hi how are you today?
+Where do you travel to?
+I spend a lot of time on the bird watching with my cat
+What is your favorite color?
+I like all kinds of music
+I am an animal activist
+Alabama. How about you?
+What do you do for a living?
+I'm on the soccer team.
+I am sorry to hear that. My brother is older than me.
+I'm a stay at home mom.
+No pets. I ride the bus to school.
+What kind of work do you do?
+I am a stay at home mom
+I love to shop and sell shoes
+Wow that is a lot of horses
+Yes I do
+Thank you I hope so too
+How are you doing today?
+What do you do for a living?
+I love chocolate ice cream
+What city are you from?
+I am from los angeles
+I live in san diego
+What do you do for a living?
+What city are you from?
+I am from los angeles
+I used to be a painter
+How old are your kids?
+I remember those days
+I am good, how are you?
+What do you do for a living?
+I'm a college student
+I work at a coffee shop
+I like to play football
+What is your favorite color?
+I'm good. How are you?
+What do you do for a living?
+I work as a doctor.
+That would be great. What is your favorite movie?
+I have never seen that one.
+I do not have a job.
+No, but I do volunteer at a soup kitchen.
+I work as a retired vet. What about you?
+What do you do for a living?
+That sounds like a lot of fun.
+No. I am a stay at home mom.
+What is your favorite food?
+Hi how are you doing?
+What kind of car do you drive?
+No I work as a customer service manager
+Yes I am a cashier
+I don't know what that means
+Oh I see what you are saying
+Hello, how are you today?
+I am doing well, thank you. What do you do for work?
+How long have you worked there?
+What is your favorite thing to do?
+That sounds like a lot of fun!
+I was adopted at a young age.
+Hi how are you today?
+What do you do for a living?
+What kind of school?
+What city are you from?
+I do not have a lot of friends
+No I don't have any
+Hello, how are you today?
+I am good, what do you do for a living?
+I'm 22. How about you?
+Happy birthday! What did you have for dinner?
+I do not have any pets. What kind of fish?
+I love red, reminds me of summer time.
+Hello, how are you today?
+Happy for you! What do you do for a living?
+Great! I just got back from a walk with my dog.
+I am in 9th grade.
+What is your favorite color? Mine is blue.
+I love chocolate. My parents taught me.
+Hello, how are you today?
+I am from texas, what about you?
+What do you do for a living?
+I work at a gas station.
+I like to garden and spend time with my family.
+What color is your bmw?
+Hello, how are you today?
+What do you do for a living?
+I love to eat ice cream.
+I do not. I spend a lot of time at church.
+I am a teacher.
+What is your favorite color?
+Hello, how are you today?
+I am good. I was forced to marry when I was young.
+I'm from the united states. How about you?
+I do not have any pets. What kind of dog do you have?
+I like to bake and spend time with my family.
+I'm sorry to hear that.
+Hello, how are you today?
+I am good, just listening to some music.
+Do you like to wear jeans?
+How long have you been doing that?
+I do not have a lot of brown eyes.
+I'm a blonde girl with short hair.
+What do you do for a living?
+What city are you from?
+I have never been to a romantic place
+What is your favorite song?
+I like all kinds of music
+How long have you been doing that
+I love taking care of my two dogs.
+I do not really listen to hip hop either.
+I am in my 30s.
+Do you have any pets?
+My name is sam. How old are you?
+I have never heard of them.
+Hi how are you today?
+Pretty good do you work
+I do not have many friends
+I wish I could do that
+That sounds like a lot of fun
+I have never been there
+Hi how are you today?
+I am good thanks for asking
+I like to ride the bus
+Yes I'm on the soccer team
+What kind of restaurant is it?
+What do you do for a living?
+Hello, how are you today?
+What kind of music do you like?
+I love rap, what is your favorite food?
+I work at a pizza place.
+Why did you quit your job?
+It is hot here in florida.
+I'm from the us, how about you?
+Yes, I live in a rural area.
+I like to watch hockey.
+I do. Do you have any pets?
+I have a german shepherd named radar.
+What kind of music do they play?
+Hello, how are you today?
+I am doing well, thank you. Tell me about yourself.
+I love red, reminds me of summer time.
+Do you have any hobbies?
+I like to play games with my friends.
+What color is your hair?
+I am good how are you?
+I'm 10. Do you like comics?
+I'm not. I work as a chef.
+I love comic books. What are your hobbies?
+I do not really have a hobby.
+What is your favorite subject in school?
+What do you do for a living?
+I work as a plumber
+What city are you from?
+How old are your kids?
+I do not know much about computers
+I love to drink ice cream
+Hi how are you today?
+I am good thanks for asking
+Not really just going to work
+I play in a band called insane clown posse
+I would love to do that
+Sounds like a plan
+I am good, how are you?
+What work do you do?
+Wow that is a lot of horses
+What kind of horse is it?
+Oh that sounds like fun
+How long have you been doing that?
+Hi how are you today?
+What do you do for a living?
+I am a bank teller
+What city are you from?
+Whats your favorite food?
+That sounds like a lot of fun
+Hello, how are you today?
+I was raised in a single parent household.
+I do not watch much tv. I spend most of my time reading.
+That sounds like a lot of fun.
+Do you have any other hobbies?
+What is your dream life?
+I am good, how are you?
+I love long walks with my dog.
+Do you have any pets?
+I'm married to a doctor.
+I work as a professional tennis player.
+That sounds like a lot of fun.
+Hello, how are you today?
+I am good. Just got back from a long day of work.
+I was raised on a horse farm.
+I dream of moving to the city.
+What do you do in your spare time?
+What is your favorite thing to do?
+I'm doing well, how about yourself?
+I work as a nurse at a hospital.
+That sounds like fun. Do you believe in god?
+I am not a big fan of them.
+I do not. I spend most of my time on facebook.
+I don't think that is a good thing.
+Hi how are you today?
+What do you do for a living?
+Oh I am sorry to hear that
+I was born in the early 80s
+How old are your kids?
+What is your favorite thing to do?
+I am doing well. I am getting married soon.
+Congratulations! What kind of music do you like?
+I'm a teacher. What about you?
+What city are you from?
+Thank you! It is a beautiful state.
+I love taylor swift. She's my favorite.
+I am good, how are you?
+I've a job as a mechanic.
+What kind of shows do you recommend?
+I love planting flowers. What is your favorite flower?
+I do not have a lot of time for things like that.
+Not if you count my age.
+Hello, how are you today?
+Same here. I like to go outside and grill my lawn on sunny days.
+What do you do for a living?
+I am from the south.
+What city are you from?
+He loves being a lawyer.
+I am good, how are you?
+What do you do for a living?
+I have never been out of ohio.
+What city are you from?
+I'm a female
+What is your favorite food?
+Hello, how are you today?
+I am good, just got done driving my mini van.
+I love coffee, what is your favorite drink?
+I like a glass of wine in the evenings.
+What do you do for a living?
+How old are your kids?
+I'm good. How are you?
+I'm doing well. What do you do?
+That sounds like a lot of fun.
+I did not know that
+I am in a very small position right now.
+I wish I had time to do that.
+I am doing well, how are you?
+What do you do for a living?
+I'm a professional athlete.
+What city are you from?
+Oh wow, I'm sorry to hear that.
+That sounds like a lot of fun.
+Hi how are you today?
+I am good thanks for asking
+Yes it is what do you do for a living
+I work as a bee farmer
+What is your favorite food?
+I have never heard of them
+I am good how are you?
+What do you do for a living?
+Just me and my boyfriend
+Why do they want to be friends
+How long have you been together
+I like to take walks
+I'm a real estate agent. What about you?
+Nice! Do you like movies?
+I love golfing too. My husband is a detective.
+Sorry to hear that. Are you married?
+That is great. Have you read any good books lately?
+I have never been to a golf game.
+Hello, how are you today?
+It is! What do you do for a living?
+No, I am in the army.
+What is your favorite food?
+What did you study in college?
+I live in north carolina.
+Hello. I am a retired vet. How about you?
+Nice to meet you too. What city are you from?
+Do you have any hobbies?
+I like to volunteer at a soup kitchen.
+I walk 3 miles a day.
+Yes, I grew up in chicago.
+European paris eiffel tower ceramic soap lotion liquid dispenser pump bottle
+I am 32, how old are you?
+I run and spend time with my husband
+Yes it does, what is your favorite color?
+Do you have any hobbies?
+I love sports and running
+Hello, how are you today?
+That is nice. What do you do for a living?
+I followed in my moms footsteps. She's leaving soon.
+Thank you. I hope things are getting better for her.
+I am sorry to hear that.
+That sounds like a lot of responsibility.
+I'm doing well, how are you?
+I am a graphic designer. What do you do?
+I work on building a robot to be my saliva.
+I'm a video game tester.
+I would love to do that.
+What kind of dog is it?
+What kind of work do you do?
+What is your favorite photo shoot?
+Are you in a relationship?
+How long have you been together?
+No I want a bigger house
+I do not blame you
+I am an artist. What about you?
+What city are you from?
+Do you have any hobbies?
+What is your favorite color?
+That sounds like a lot of fun
+Have you ever been to disney?
+I'm good. Just listening to some classical music. You?
+What do you do for a living?
+What city are you from?
+What is your favorite season?
+That sounds like a lot of fun.
+What are your hobbies?
+How are you doing today?
+Do you have any allergies?
+That sounds like a lot of fun.
+I am making a robot to relax right now.
+That is a good thing to do.
+Who is your favorite artist?
+Hi how are you today?
+I am good thanks for asking
+What do you do for a living?
+What city are you from?
+Yes I love her so much
+I do not really have a favorite
+Hello, how are you today?
+What kind of pictures do you take?
+I am in the 3rd grade
+I like to sing songs from the movie frozen
+What is your favorite color?
+I have never heard of them
+Hello, how are you today?
+I just got back from a walk with my boyfriend.
+Do you have any hobbies?
+I like to take walks in nature.
+I work at a restaurant.
+What is the name of your lab?
+Hello, how are you today?
+What do you do for a living?
+I love to travel. What about you?
+No, I am an art major in college.
+What is your favorite dish to make?
+I like to read and cook.
+No, I do not. Do you?
+I love to cook, especially on fishing.
+I like to read comic books.
+I don't have any pets.
+What is your favorite color?
+Those are pretty colors.
+Hello, how are you today?
+Do you have any hobbies?
+That sounds like a lot of fun.
+I used to be a vet but hated it.
+Yes, I love museums. How about you?
+What is your favorite drink?
+Hello, how are you today?
+I am doing well, thank you. What do you do for fun?
+Football is my favorite sport, what about you?
+I work for a farm in a rural area.
+Yes, but I do not have a lot of time for it.
+I like to watch hockey.
+Hi how are you today?
+Do you play any sports?
+I do not have any pets
+His name is charlie
+What is your favorite color?
+I like red, reminds me of summer time.
+I am good, how are you?
+What do you do for a living?
+How old is your son?
+I remember those days
+What are your hobbies?
+I like to drink wine and dance
+Good morning, how are you?
+It is black, what is your favorite color?
+What do you do for a living?
+I am a big fan of them
+That sounds like a lot of fun
+I have never seen that
+Good morning, how are you?
+How many twins do you have?
+I am a country music singer.
+What is your favorite band?
+I love the hot weather too.
+Have you ever been to the states?
+Hello, how are you today?
+What do you do for a living?
+A little bit of everything lol
+I like to talk to people
+I do not, but I do love chocolate candy
+I am only four years old
+What kind of instruments do you play?
+I love classical, what is your favorite color?
+I like red, reminds me of summer time.
+I enjoy listening to music.
+No, I live in the country.
+How is the weather there?
+I like them too. I have visited spain a few times.
+I love to travel. What about you?
+What kind of cars do you drive?
+No, I do not play any sports.
+I want to retire in a couple years.
+That would be great. Where are you from?
+Hello, how are you today?
+What do you do for a living?
+I am in high school.
+What is your favorite dance?
+That sounds like a lot of fun.
+What city are you from?
+My day is going good so far. How about yours?
+What kind of work do you do?
+How long have you been in school?
+What is your favorite food?
+I do not have a lot of free time.
+No I am not sure what that means.
+Hi how are you today?
+What do you do for work?
+I am a stay at home mom
+What is your favorite color?
+I like to run when I can
+What are your hobbies?
+What do you do for a lawyer?
+My ex cheated on me when I was in law school.
+I am sorry to hear that. How old are you?
+I enjoy playing the guitar.
+What is your favorite mountain bike ride?
+Why did he do that?
+I am good. Just got back from a yoga class.
+What happened to your boyfriend?
+I like purple. Do you have any hobbies?
+I have a dog and a cat.
+Are you in a relationship?
+It is. I love it so much.
+I love listening to classical music. What about you?
+What kind of hobbies do you cook?
+What is your weakness?
+Yes I do. My sister is a dancer.
+What are your major in school?
+That sounds like a lot of fun.
+Hi how are you today?
+What kind of car do you drive?
+That sounds like a lot of fun
+I have been trying to plan a trip to the world for a decade
+What is your favorite food?
+How old are your dogs?
+Hi how are you today?
+I am good thanks for asking
+What do you do for a living?
+No I do not have any children
+I don't know what you mean
+I work as a doctor
+I'm good, how are you?
+What do you do for a living?
+That sounds like a lot of work
+How long have you been a nurse?
+What city are you from?
+I live in los angeles
+How are you doing today?
+What do you do for a living?
+I am a big star wars fan
+What city are you from?
+I love to play softball
+What is your favorite sport?
+I'm from india, where are you from?
+I am old and love to travel. Do you have any hobbies?
+I like reading and traveling
+What is your favorite thing to do?
+I have visited spain a few times
+What did you grow up in?
+Hello, how are you today?
+I am doing well, thank you. What do you do for fun?
+I work at a coffee shop.
+I play football for a living.
+No, I try to stay in shape.
+I love it so much.
+I am good, how are you?
+I do not have a job, what do you do?
+That is very noble of you.
+I love to grill my lawn on sunny days.
+I live in north carolina.
+Georgia. It is beautiful here.
+Hello, how are you today?
+I am sorry to hear that.
+Do you have any other hobbies?
+A little bit of everything. What about you?
+What is your favorite movie?
+I have never seen either of those.
+I'm good. How are you?
+What do you do for a living?
+I am in school too. I want to be a physical therapist.
+I love to help people.
+Yes I do. What are your hobbies?
+That sounds like a lot of fun.
+I'm good. How are you?
+What do you do for a living?
+I am a stay at home mom
+I play a lot of sports
+I also own a house in florida
+I do not like high school
+Hello, how are you today?
+Not too bad, do you have any hobbies?
+I volunteer at my local animal shelter.
+What is your favorite color? Mine is navy blue.
+Wow, that is a lot of house.
+I love red, reminds me of summer time.
+Hello, how are you today?
+I am good, just moved to my first house.
+My step child is an english teacher.
+Do you have any kids?
+What is your favorite color?
+I love red, reminds me of summer time.
+I am good, how are you?
+What do you do for a lawyer?
+I live in california but the weather is beautiful
+What is your favorite color?
+I love blue, reminds me of summer time.
+How long have you been doing that?
+Hello, how are you today?
+I am good thanks for asking
+No I did not
+I just got a job in a gas station
+What do you do for a living?
+Yes I'm. What are your hobbies?
+How are you doing today?
+I am good thanks for asking
+What do you do for a living?
+I work on a building
+What city are you from?
+I live in los angeles
